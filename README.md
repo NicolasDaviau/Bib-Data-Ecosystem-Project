@@ -11,8 +11,8 @@ AWS s3 / Ec2 / EMR
 
 ---
 
-## **All is in the PDF**  
-We decided to present our project report in the format of slides (Canevas slides in pdf format). This approach allowed us to:  
+## **All is in the PDF **  
+The Report file is [Big-Data-Ecosystem-Report](Big-Data-Ecosystem-Report.pdf) We decided to present our project report in the format of slides (Canevas slides in pdf format). This approach allowed us to:  
 1. **Combine visuals and explanations more effectively**, making it easier to show how the pipeline works.  
 2. Make the content **clearer and more engaging** for readers who want to quickly understand the project.  
 
