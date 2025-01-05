@@ -9,8 +9,9 @@ In this project, we designed and implemented a scalable data processing pipeline
 - Apache Hadoop
 - Kibana and Elasticsearch
 - AWS S3 / EC2 / EMR
+  
 
-## **All is in the PDF**
+## **All is in the PDF Report file** ‼️
 The report file is `Big-Data-Ecosystem-Report.pdf`. We decided to present our project report in the format of slides (Canevas slides in PDF format). This approach allowed us to:
 
 - Combine visuals and explanations more effectively, making it easier to show how the pipeline works.
@@ -19,6 +20,10 @@ The report file is `Big-Data-Ecosystem-Report.pdf`. We decided to present our pr
 You can find the slides in this repository for a complete explanation of the project, including architecture diagrams, challenges, and conclusions.
 
 You cannot see it directly on the github but you can download it.
+
+
+
+
 
 
 ## What’s in This Repository?
@@ -93,18 +98,17 @@ You cannot see it directly on the github but you can download it.
    ```
 2. Upload the `UberDataset.csv` file to your S3 bucket.
 3. Start an AWS EMR cluster with Spark and Hadoop pre-installed.
-4. Submit the Spark job:
+4. Creat an "EMR step" or manualy Submit the Spark job:
    ```bash
    spark-submit --data_source <s3_input_path> --output_uri <s3_output_path> SparkTask.py
    ```
-5. Use Kibana to visualize the processed data by connecting it to the Elasticsearch index.
+5. Use Kibana to visualize the processed data.
 
 ---
 
 ## Future Work
 - **Expand the dataset**: Include more comprehensive datasets to test the pipeline’s scalability and flexibility.
 - **Enhance visualizations**: Build more complex dashboards in Kibana for deeper insights.
-- **Implement real-time processing**: Use Kafka for streaming data into the pipeline for real-time analytics.
 - **Optimize resource usage**: Explore auto-scaling options in AWS EMR to handle variable workloads efficiently.
 
 ---
