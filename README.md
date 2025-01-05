@@ -19,7 +19,7 @@ The report file is `Big-Data-Ecosystem-Report.pdf`. We decided to present our pr
 You can find the slides in this repository for a complete explanation of the project, including architecture diagrams, challenges, and conclusions.
 
 You cannot see it directly on the github but you can download it.
----
+
 
 ## What’s in This Repository?
 
