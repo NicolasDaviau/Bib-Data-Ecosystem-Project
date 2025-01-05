@@ -10,7 +10,7 @@ In this project, we designed and implemented a scalable data processing pipeline
 - Kibana and Elasticsearch
 - AWS S3 / EC2 / EMR
 
-**All is in the PDF**
+## **All is in the PDF**
 The report file is `Big-Data-Ecosystem-Report.pdf`. We decided to present our project report in the format of slides (Canevas slides in PDF format). This approach allowed us to:
 
 - Combine visuals and explanations more effectively, making it easier to show how the pipeline works.
